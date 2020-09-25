@@ -1,0 +1,51 @@
+body {
+  background: black;
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.header-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  opacity: 0.3;
+  text-decoration: none;
+  margin-left: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.header-link:hover {
+  color: white;
+  opacity: 0.9;
+}
+.sign-in {
+  display: flex;
+  align-items: center;
+}
+.user-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; 
+}
+.sign-in button {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+  font-weight: normal;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.sign-in button:hover {
+  color: #ff7e82;
+}
